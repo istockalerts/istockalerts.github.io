@@ -44,10 +44,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<div class="head-logo">
 						<a href="./index.html"><img src="images/logo2.png" alt="" /></a>
-						<a href="https://itunes.apple.com/us/app/istockalerts/id842378522?mt=8" target="_blank"><img src="images/itunes.png" alt="" style="margin-left: 600px;"/></a>
+						<a href="https://itunes.apple.com/us/app/istockalerts/id842378522?mt=8" target="_blank"><img src="images/itunes.png" alt="" style="margin-left: 550px;" id="appstore-link" /></a>
 						<a href="https://play.google.com/store/apps/details?id=com.trade.istockalerts" target="_blank">
   							<img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
 						</a>
+						<a href="http://trade.istockalerts.com" target="_blank" style="width: 115px;height: 25px;background: #0088cb;padding: 10px;text-align: center;border-radius: 5px;color: white;position: relative;left: 1090px;bottom: 60px;">LOGIN</a>
+						<a href="http://trade.istockalerts.com/static/register.html" target="_blank" style="width: 115px;height: 25px;background: #0088cb;padding: 10px;text-align: center;border-radius: 5px;color: white;position: relative;left: 1090px;bottom: 60px;">SIGN UP</a>
+						
 					</div>
 					
 					<!-- banner Slider starts Here -->
@@ -82,9 +85,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>Brand new layout</h1>
 										<p>iStockAlerts is back with a simple, fluid, and sophisticated interface. iStockAlerts is a user-friendly app, with no financial background required.</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/layout.png" alt="" />
@@ -98,9 +98,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>Advanced charting systems</h1>
 										<p>Our brand new charting system allows users to analyze stocks on a deeper level.  Change time duration, switch from candlesticks to line graphs, and overlay technical indicators on the charts to gain a better understanding of the next big stock!</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/market-indices.png" alt="" />
@@ -114,9 +111,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>iStockAlerts Sentimeter</h1>
 										<p>Vote on which stocks you think are going to perform well in the next market day.  See what stocks other members of the iStockAlerts community are following!</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/sentimeter.png" alt="" />
@@ -130,9 +124,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>StockTwits</h1>
 										<p>Tap into the "Pulse of the Market" with social integration from Stock Twits. Find out more at http://stocktwits.com/</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/twits.png" alt="" />
@@ -146,9 +137,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1> Top 10 gainers/losers</h1>
 										<p>Monitor which stocks are performing well and which stocks are struggling.</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/gain-lose.png" alt=""/>
@@ -162,9 +150,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>Social media integration</h1>
 										<p>Sign in to all of your social sites to spread the word about iStockAlerts.</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/social.png" alt="" />
@@ -178,9 +163,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>Market Indices</h1>
 										<p>Stay up to date on all market indices.</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/market-indices.png" alt="" />
@@ -194,9 +176,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="head-text">
 										<h1>Brokerage account integration</h1>
 										<p>Link your iStockAlerts profile to one of our approved brokers and trade live stock via the iStockAlerts app!</p>
-										<div class="button">
-										<a href="http://trade.istockalerts.com" target="_blank">LOGIN</a>
-										</div>
 									</div>
 									<div class="mobile-device">
 										<img src="images/brokerage.png" alt="" />
@@ -490,10 +469,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											easingType: 'linear' 
 								 		};
 										*/
-										
+
 										$().UItoTop({ easingType: 'easeOutQuart' });
 										
 									});
+									$('#appstore-link').click(function(e) {
+										alert('Application comming soon')
+											e.preventDefault();
+											return false;
+										});
 								</script>
 									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- content-Get-in-touch -->
